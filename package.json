@@ -1,0 +1,25 @@
+{
+  "name": "adventofcode2024",
+  "version": "1.0.0",
+  "description": "Advent of Code 2024 problems using Typescript",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "exe": "npx ts-node src/index.ts",
+    "clean": "tsc --build --clean && rmdir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickHeyn/compound-project"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@types/node": "^22.9.1"
+  }
+}

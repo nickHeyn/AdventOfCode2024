@@ -1,2 +1,2 @@
 # AdventOfCode2024
- Advent of Code 2024 problems using Typescript
+This repository contains my solutions for [Advent Of Code 2024](https://adventofcode.com/).
