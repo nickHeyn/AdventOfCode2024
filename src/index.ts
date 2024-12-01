@@ -6,9 +6,21 @@ const PROBLEM_DAY_TO_SOLVE = 0;
 const dayProblem = getProblemFromList(PROBLEM_DAY_TO_SOLVE);
 
 if(dayProblem) {
-    const solutionString = dayProblem.calculateSolution();
-    console.log("Solution: \n");
-    console.log(solutionString);
+    console.log("Solving for Day " + PROBLEM_DAY_TO_SOLVE);
+    const solution1String = dayProblem.calculateSolution1();
+    const solution2String = dayProblem.calculateSolution2();
+
+    if(solution1String) {
+        console.log("\nSolution 1:");
+        console.log(solution1String);
+    }
+    
+
+    if(solution2String) {
+        console.log("\nSolution 2:");
+        console.log(solution2String);
+    }
+    
 }
 else {
     console.error("Could not find problem for day " + PROBLEM_DAY_TO_SOLVE);

@@ -2,7 +2,11 @@ import { Problem } from "./problem";
 
 export class Day8 extends Problem {
 
-    public calculateSolution(): string {
-        return this.readInputFile();
+    public calculateSolution1() {
+        return undefined;
+    }
+
+    public calculateSolution2() {
+        return undefined;
     }
 }

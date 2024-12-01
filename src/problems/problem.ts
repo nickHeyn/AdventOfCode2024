@@ -19,5 +19,12 @@ export abstract class Problem {
         return this.dayNumber;
     }
 
-    public abstract calculateSolution(): string;
+    public readFileInputAsNewlineDelimittedList() {
+        const fileContent = this.readInputFile();
+        return fileContent.split("\n");
+    }
+
+    public abstract calculateSolution1(): string | undefined;
+
+    public abstract calculateSolution2(): string | undefined;
 }
