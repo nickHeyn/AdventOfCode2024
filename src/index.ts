@@ -1,12 +1,12 @@
 import { getProblemFromList } from "./getProblemFromList";
 
 // modify this variable to change the problem day we're solving
-const PROBLEM_DAY_TO_SOLVE = 0;
+const PROBLEM_DAY_TO_SOLVE = 1;
 
 const dayProblem = getProblemFromList(PROBLEM_DAY_TO_SOLVE);
 
 if(dayProblem) {
-    console.log("Solving for Day " + PROBLEM_DAY_TO_SOLVE);
+    console.log("Solving for Day " + PROBLEM_DAY_TO_SOLVE + "\n");
     const solution1String = dayProblem.calculateSolution1();
     const solution2String = dayProblem.calculateSolution2();
 
