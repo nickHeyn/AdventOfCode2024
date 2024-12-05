@@ -1,7 +1,7 @@
 import { getProblemFromList } from "./getProblemFromList";
 
 // modify this variable to change the problem day we're solving
-const PROBLEM_DAY_TO_SOLVE = 4;
+const PROBLEM_DAY_TO_SOLVE = 5;
 
 const dayProblem = getProblemFromList(PROBLEM_DAY_TO_SOLVE);
 
